@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+  width: 100%;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #262626;
+}
+
+/*SELETOR DE ATRIBUTO -> textarea[name="user-input"]*/
+textarea[name="user-input"] {
+  width: 50%;
+  height: 100px;
+  border: solid 1px #EF4040;
+  border-radius: 10px;
+  padding: 10px;
+  resize: none;
+  margin: 5px;
+}
+
+ul {
+  list-style: none;
+  margin: 5px;
+  width: 50%;
+}
+
+li {
+  display: flex;
+  border: solid 1px #EF4040;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+.li__words {
+  margin-left: auto;
+  color: #262626;
+  font-weight: bold;
+}
+
+#reset-button {
+  background-color: #EF4040;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 35px;
+  margin: 5px;
+  cursor: pointer;
+}
+#reset-button:hover {
+  background-color: #fff;
+  color: #EF4040;
+  border: solid 1px #EF4040;
+}
+:focus {
+  outline: none;
+}
+
+footer {
+  background-color: #fff;
+  padding: 20px 0;
+  border-top: 1px solid #eee;
+  text-align: center;
+  width: 100%;
+}
