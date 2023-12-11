@@ -8,6 +8,26 @@
 </head>
 
 <body>
-  <script src="index.js" type="module"></script>
+<header>
+  <h1>Analisador de texto</h1>
+</header>
+<textarea name="user-input" placeholder="Digite seu texto aqui..."></textarea>
+
+<ul>
+  <li class="li__words" data-testid="word-count">Contador de palavras: </li>
+  <li class="li__words" data-testid="character-count">Contador de Caracteres: </li>
+  <li class="li__words" data-testid="character-no-spaces-count">Contador de caracteres sem espaços: </li>
+  <li class="li__words" data-testid="number-count">Contador de números: </li>
+  <li class="li__words" data-testid="number-sum">Soma total dos números: </li>
+  <li class="li__words" data-testid="word-length-average">Comprimento médio das palavras: </li>
+</ul>
+
+<button id="reset-button"> Limpar conteúdo </button>
+
+<footer>
+  <p>Desenvolvido por Elizabete de Sousa Fabri </p>
+</footer>
+
+<script src="index.js"s type="module"></script>
 </body>
 </html>
