@@ -1,21 +1,60 @@
-const analyzer = {  
+// Definindo um objeto chamado "analyzer" que contém várias funções de análise de texto
+const analyzer = {
+  // Esta função recebe um texto e retorna o número de palavras nele
   getWordCount: (text) => {
-    //TODO: esta función debe retornar el recuento de palabras que se encuentran en el parámetro `text` de tipo `string`.
+    // Dividindo o texto em palavras usando o espaço como separador
+    const words = text.split(' ');
+    // Retornando o número de palavras
+    return words.length;
   },
+  // Esta função recebe um texto e retorna o número de caracteres nele
   getCharacterCount: (text) => {
-    //TODO: esta función debe retornar el recuento de caracteres que se encuentran en el parámetro `text` de tipo `string`.
+    return text.length;
   },
+  // Esta função recebe um texto e retorna o número de caracteres nele, excluindo espaços e sinais de pontuação
   getCharacterCountExcludingSpaces: (text) => {
-    //TODO: esta función debe retornar el recuento de caracteres excluyendo espacios y signos de puntuación que se encuentran en el parámetro `text` de tipo `string`.
+    // Substituindo espaços e sinais de pontuação por nada
+    const noSpaces = text.replace(/[\s\.\?!,;:]/g, '');
+    // Retornando o número de caracteres
+    return noSpaces.length;
   },
-  getAverageWordLength: (text) => {    
-    //TODO: esta función debe retornar la longitud media de palabras que se encuentran en el parámetro `text` de tipo `string`.
+  // Esta função recebe um texto e retorna o comprimento médio das palavras nele
+  getAverageWordLength: (text) => {
+    // Dividindo o texto em palavras usando o espaço como separador
+    const words = text.split(' ');
+    let sum = 0;
+    // Para cada palavra, adicionando seu comprimento à soma
+    for (let i = 0; i < words.length; i++) {
+      sum += words[i].length;
+    }
+    // Retornando a média (soma dividida pelo número de palavras)
+    return sum / words.length;
   },
+  // Esta função recebe um texto e retorna o número de números nele
   getNumberCount: (text) => {
-    //TODO: esta función debe retornar cúantos números se encuentran en el parámetro `text` de tipo `string`.
+    // Encontrando todos os números no texto
+    const numbers = text.match(/\d+/g);
+    // Se houver números, retornando o número de números, caso contrário, retornando 0
+    if (numbers) {
+      return numbers.length;
+    } else {
+      return 0;
+    }
   },
+  // Esta função recebe um texto e retorna a soma de todos os números nele
   getNumberSum: (text) => {
-    //TODO: esta función debe retornar la suma de todos los números que se encuentran en el parámetro `text` de tipo `string`.
+    // Encontrando todos os números no texto
+    const numbers = text.match(/\d+/g);
+    // Se houver números, somando todos eles, caso contrário, retornando 0
+    if (numbers) {
+      let sum = 0;
+      for (let i = 0; i < numbers.length; i++) {
+        sum += Number(numbers[i]);
+      }
+      return sum;
+    } else {
+      return 0;
+    }
   },
 };
 
