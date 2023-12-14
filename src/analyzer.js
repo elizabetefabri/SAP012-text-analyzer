@@ -14,7 +14,8 @@ const analyzer = {
   // Esta função recebe um texto e retorna o número de caracteres nele, excluindo espaços e sinais de pontuação
   getCharacterCountExcludingSpaces: (text) => {
     // Substituindo espaços e sinais de pontuação por nada
-    const noSpaces = text.replace(/[\s\.\?!,;:]/g, '');
+    const noSpaces = text.replace(/[\s.?!,;:]/g, '');
+
     // Retornando o número de caracteres
     return noSpaces.length;
   },
@@ -27,13 +28,15 @@ const analyzer = {
     for (let i = 0; i < words.length; i++) {
       sum += words[i].length;
     }
-    // Retornando a média (soma dividida pelo número de palavras)
-    return sum / words.length;
+
+    const result = (sum / words.length).toFixed(2);
+    return Number(result);
   },
   // Esta função recebe um texto e retorna o número de números nele
   getNumberCount: (text) => {
     // Encontrando todos os números no texto
-    const numbers = text.match(/\d+/g);
+    const numbers = text.match(/\b\d+(\.\d+)?\b/g);
+
     // Se houver números, retornando o número de números, caso contrário, retornando 0
     if (numbers) {
       return numbers.length;
@@ -44,7 +47,7 @@ const analyzer = {
   // Esta função recebe um texto e retorna a soma de todos os números nele
   getNumberSum: (text) => {
     // Encontrando todos os números no texto
-    const numbers = text.match(/\d+/g);
+    const numbers = text.match(/\b\d+(\.\d+)?\b/g);
     // Se houver números, somando todos eles, caso contrário, retornando 0
     if (numbers) {
       let sum = 0;
