@@ -274,7 +274,7 @@ relacionados a cada objetivo de aprendizado.
 
 - **Modelo de caixa (box model): borda, margem, preenchimento**
 
-  + [ ] As
+  + [x] As
         [`classes CSS`](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors#class_selectors)
         dos
         [`<li>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li)
@@ -291,10 +291,10 @@ relacionados a cada objetivo de aprendizado.
 
 - **Uso de seletores do DOM**
 
-  + [ ] A aplicação utiliza o
+  + [x] A aplicação utiliza o
         [`seletor do DOM querySelector`](https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelector).
 
-  + [ ] A aplicação utiliza o
+  + [x] A aplicação utiliza o
         [`seletor do DOM getElementById`](https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementById).
 
 - **Manipulação de eventos do DOM (ouvintes, propagação, delegação)**
@@ -552,11 +552,11 @@ Junte-se ao canal do Slack [#project-text-analyzer-pt](https://claseslaboratoria
 
 Antes de agendar seu Feedback de Projeto com um coach, certifique-se de que seu projeto:
 
-- [ ] Atende a todos os critérios mínimos de aceitação ao executar `npm run test:oas`
-- [ ] Atende a todos os testes unitários ao executar `npm run test`
-- [ ] Atende a todos os testes _end to end_ ao executar `npm run test:e2e`
-- [ ] Está livre de _erros_ do `eslint` ao executar `npm run test`
-- [ ] Está hospedado no GitHub.
+- [x] Atende a todos os critérios mínimos de aceitação ao executar `npm run test:oas`
+- [x] Atende a todos os testes unitários ao executar `npm run test`
+- [x] Atende a todos os testes _end to end_ ao executar `npm run test:e2e`
+- [x] Está livre de _erros_ do `eslint` ao executar `npm run test`
+- [x] Está hospedado no GitHub.
 - [ ] Está implantado no GitHub Pages.
 - [ ] Possui um README com a definição do produto.
 
@@ -572,7 +572,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
 
 ### HTML
 
-- [ ] **Uso de HTML semântico**
+- [x] **Uso de HTML semântico**
 
   <details><summary>Links</summary><p>
 
@@ -582,7 +582,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
 
 ### CSS
 
-- [ ] **Uso de seletores de CSS**
+- [x] **Uso de seletores de CSS**
 
   <details><summary>Links</summary><p>
 
@@ -590,7 +590,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
   * [CSS Selectors - MDN](https://developer.mozilla.org/pt_BR/docs/Web/CSS/CSS_Selectors)
 </p></details>
 
-- [ ] **Modelo de caixa (box model): borda, margem, preenchimento**
+- [x] **Modelo de caixa (box model): borda, margem, preenchimento**
 
   <details><summary>Links</summary><p>
 
@@ -603,7 +603,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
 
 ### Web APIs
 
-- [ ] **Uso de seletores de DOM**
+- [x] **Uso de seletores de DOM**
 
   <details><summary>Links</summary><p>
 
@@ -612,7 +612,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
   * [Locating DOM elements using selectors - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors)
 </p></details>
 
-- [ ] **Manipulação de eventos de DOM (listeners, propagação, delegação)**
+- [x] **Manipulação de eventos de DOM (listeners, propagação, delegação)**
 
   <details><summary>Links</summary><p>
 
@@ -622,7 +622,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
   * [Objeto Event](https://developer.mozilla.org/pt-BR/docs/Web/API/Event)
 </p></details>
 
-- [ ] **Manipulação dinâmica de DOM**
+- [x] **Manipulação dinâmica de DOM**
 
   <details><summary>Links</summary><p>
 
@@ -636,14 +636,14 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
 
 ### JavaScript
 
-- [ ] **Tipos de dados primitivos**
+- [x] **Tipos de dados primitivos**
 
   <details><summary>Links</summary><p>
 
   * [Valores Primitivos - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Data_structures#valores_primitivos)
 </p></details>
 
-- [ ] **Strings (cadeias de caracteres)**
+- [x] **Strings (cadeias de caracteres)**
 
   <details><summary>Links</summary><p>
 
@@ -651,7 +651,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
   * [String — Cadeia de caracteres - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String)
 </p></details>
 
-- [ ] **Variáveis (declaração, atribuição, escopo)**
+- [x] **Variáveis (declaração, atribuição, escopo)**
 
   <details><summary>Links</summary><p>
 
@@ -659,7 +659,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
   * [Variáveis](https://curriculum.laboratoria.la/pt/topics/javascript/basics/variables)
 </p></details>
 
-- [ ] **Uso de condicionais (if-else, switch, operador ternário, lógica booleana)**
+- [x] **Uso de condicionais (if-else, switch, operador ternário, lógica booleana)**
 
   <details><summary>Links</summary><p>
 
@@ -667,7 +667,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
   * [Tomando decisões no seu código — condicionais - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/conditionals)
 </p></details>
 
-- [ ] **Uso de laços (while, for, for..of)**
+- [x] **Uso de laços (while, for, for..of)**
 
   <details><summary>Links</summary><p>
 
@@ -675,7 +675,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
   * [Laços e iterações - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Loops_and_iteration)
 </p></details>
 
-- [ ] **Funções (params, args, return)**
+- [x] **Funções (params, args, return)**
 
   <details><summary>Links</summary><p>
 
@@ -685,14 +685,14 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
   * [Funções — blocos reutilizáveis de código - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Functions)
 </p></details>
 
-- [ ] **Testes unitários (unit tests)**
+- [x] **Testes unitários (unit tests)**
 
   <details><summary>Links</summary><p>
 
   * [Introdução ao Jest - Documentação oficial](https://jestjs.io/docs/pt-BR/getting-started)
 </p></details>
 
-- [ ] **Módulos de ECMAScript (ES modules)**
+- [x] **Módulos de ECMAScript (ES modules)**
 
   <details><summary>Links</summary><p>
 
