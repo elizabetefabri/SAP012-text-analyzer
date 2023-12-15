@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   // Desenvolver o botão: Adicionar um ouvinte de evento para o evento de input no <textarea>
-  textarea.addEventListener('textarea', updateMetrics);
+  textarea.addEventListener('input', updateMetrics);
   // Atraves Adiciona um ouvinte de evento para o evento de clique no botão de reset
   document.getElementById('reset-button').addEventListener('click', () => {
     textarea.value = ''; // Limpa o conteúdo do <textarea>
