@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const list = document.querySelectorAll('li[data-testid]');
   // Função para atualizar as métricas
   const updateMetrics = () => {
-    // Obtém o texto do conteúdo do <textarea>
+    // Obter o texto do conteúdo do <textarea>
     const text = textarea.value;
     // Para cada elemento <li> com o atributo data-testid, atualiza o texto
     list.forEach((li) => {
