@@ -28,10 +28,11 @@ const analyzer = {
     for (let i = 0; i < words.length; i++) {
       sum += words[i].length;
     }
-
     const result = (sum / words.length).toFixed(2);
+
     return Number(result);
   },
+
   // Esta função recebe um texto e retorna o número de números nele
   getNumberCount: (text) => {
     // Encontrando todos os números no texto

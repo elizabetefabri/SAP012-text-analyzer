@@ -10,25 +10,31 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
+  margin: 0;
 }
 
 header {
-  background-color: #fff;
-  padding: 20px 0;
-  border-bottom: 1px solid #eee;
-  width: 100%;
+  background-color: #3a3441;
+  padding: 40px 0;
   text-align: center;
+  width: 100%;
+  margin-bottom:100px;
 }
+.img__lupa{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
 
+
+}
 h1 {
   font-size: 2rem;
-  color: #262626;
+  color: #f2f2f2;
 }
 
-/*SELETOR DE ATRIBUTO -> textarea[name="user-input"]*/
 textarea[name="user-input"] {
-  width: 50%;
+  width: 40%;
   height: 100px;
   border: solid 1px #EF4040;
   border-radius: 10px;
@@ -38,9 +44,10 @@ textarea[name="user-input"] {
 }
 
 ul {
+  font-size: 1.5rem;
   list-style: none;
-  margin: 5px;
-  width: 50%;
+  margin: 20px 0; /* Aumentado o espaçamento entre o header e a lista. */
+  width: 40%;
 }
 
 li {
@@ -58,27 +65,32 @@ li {
 }
 
 #reset-button {
+  font-size: 1.5rem;
   background-color: #EF4040;
   color: #fff;
   border: none;
   border-radius: 10px;
-  padding: 10px 35px;
+  padding: 20px 390px;
   margin: 5px;
   cursor: pointer;
 }
+
 #reset-button:hover {
   background-color: #fff;
   color: #EF4040;
   border: solid 1px #EF4040;
 }
+
 :focus {
   outline: none;
 }
 
 footer {
-  background-color: #fff;
+  background-color: #3a3441;
+  color: #f2f2f2;
   padding: 20px 0;
-  border-top: 1px solid #eee;
   text-align: center;
   width: 100%;
+  position: relative; /* Alterado para 'relative' para garantir que o rodapé flua com o conteúdo. */
+  margin-top: auto; /* Adicionado para posicionar o rodapé no final da página. */
 }
