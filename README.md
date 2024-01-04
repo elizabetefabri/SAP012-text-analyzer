@@ -5,9 +5,9 @@
 ## Projeto 01 - Analisador de Texto
 
 <div align="center">
-  [Link para o Projeto](https://elizabetefabri.github.io/SAP012-text-analyzer/)
+![Link para o Projeto](https://elizabetefabri.github.io/SAP012-text-analyzer/)
 
-[<img src="src/assets/img/edit-analyser.gif" width="400" height="400">](https://elizabetefabri.github.io/SAP012-text-analyzer/)
+[<img src="src/assets/img/edit-analyser.gif">](https://elizabetefabri.github.io/SAP012-text-analyzer/)
 
 </div>
 
