@@ -1,8 +1,8 @@
-# Laboratoria - Bootcamp 2024
-
-[![Laboratoria Bootcamp 2024](https://img.shields.io/static/v1?label=Laboratoria&message=Laboratoria%20Bootcamp%202024&color=Ffe521&labelColor=202024)](https://www.laboratoria.la/br)
-
-## Projeto 01 - Analisador de Texto
+<h1>
+    <a href="https://www.laboratoria.la/br">
+     <img align="center" width="40px" src="https://v.fastcdn.co/u/cf943cfe/52655001-0-Laboratoria-RGB-isot.png"></a>
+    <span>Projeto 01 - Analisador de Texto</span>
+</h1>
 
 <div align="center">
 
