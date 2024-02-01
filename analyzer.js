@@ -32,6 +32,7 @@ const analyzer = {
 
     return Number(result);
   },
+
   // Esta função recebe um texto e retorna o número de números nele
   getNumberCount: (text) => {
     // Encontrando todos os números no texto

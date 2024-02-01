@@ -10,18 +10,24 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh; /* Adicionado para garantir que o conteúdo ocupe pelo menos toda a altura da tela. */
-  margin: 0; /* Removido para evitar margens padrão do corpo. */
+  min-height: 100vh;
+  margin: 0;
 }
 
 header {
   background-color: #3a3441;
-  padding: 20px 0;
+  padding: 40px 0;
   text-align: center;
   width: 100%;
-  margin-bottom:150px;
+  margin-bottom:100px;
 }
+.img__lupa{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
 
+
+}
 h1 {
   font-size: 2rem;
   color: #f2f2f2;
@@ -38,6 +44,7 @@ textarea[name="user-input"] {
 }
 
 ul {
+  font-size: 1.5rem;
   list-style: none;
   margin: 20px 0; /* Aumentado o espaçamento entre o header e a lista. */
   width: 40%;
@@ -58,11 +65,12 @@ li {
 }
 
 #reset-button {
+  font-size: 1.5rem;
   background-color: #EF4040;
   color: #fff;
   border: none;
   border-radius: 10px;
-  padding: 10px 35px;
+  padding: 20px 390px;
   margin: 5px;
   cursor: pointer;
 }
