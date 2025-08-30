@@ -1,36 +1,48 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <title>Analizador de texto</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Analisador de texto</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-<header>
-  <h1>Analisador de texto</h1>
-</header>
+  <header class="site-header" role="banner">
+    <div class="header__inner">
+      <h1 class="title">Analisador de texto</h1>
+    </div>
+  </header>
 
-<img src="./assets/img/la-mm-42.gif" alt="lupa" class="img__lupa" />
+  <main class="site-main" role="main">
+    <section class="section section-hero" aria-label="Ilustração">
+      <img src="./assets/img/la-mm-42.gif" alt="Personagem com lupa" class="hero__img" />
+    </section>
 
-<ul>
-  <li class="li__words" data-testid="word-count">Contador de palavras: </li>
-  <li class="li__words" data-testid="character-count">Contador de Caracteres: </li>
-  <li class="li__words" data-testid="character-no-spaces-count">Contador de caracteres sem espaços: </li>
-  <li class="li__words" data-testid="number-count">Contador de números: </li>
-  <li class="li__words" data-testid="number-sum">Soma total dos números: </li>
-  <li class="li__words" data-testid="word-length-average">Comprimento médio das palavras: </li>
-</ul>
+    <section class="section section-metrics" aria-label="Métricas do texto">
+      <ul class="metrics" role="list">
+        <li class="metric" data-testid="word-count">Contador de palavras: <span></span></li>
+        <li class="metric" data-testid="character-count">Contador de caracteres: <span></span></li>
+        <li class="metric" data-testid="character-no-spaces-count">Contador de caracteres sem espaços: <span></span></li>
+        <li class="metric" data-testid="number-count">Contador de números: <span></span></li>
+        <li class="metric" data-testid="number-sum">Soma total dos números: <span></span></li>
+        <li class="metric" data-testid="word-length-average">Tamanho médio das palavras: <span></span></li>
+      </ul>
+    </section>
 
-<textarea name="user-input" placeholder="Digite seu texto aqui..."></textarea>
+    <section class="section section-input" aria-label="Entrada de texto">
+      <label class="sr-only" for="user-input">Digite seu texto</label>
+      <textarea id="user-input" name="user-input" placeholder="Digite seu texto aqui..."></textarea>
+    </section>
 
-<button id="reset-button"> Limpar conteúdo </button>
+    <section class="section section-actions" aria-label="Ações">
+      <button id="reset-button" type="button">Limpar conteúdo</button>
+    </section>
+  </main>
 
-<footer>
-  <p>Desenvolvido por Elizabete de Sousa Fabri </p>
-</footer>
+  <footer class="site-footer" role="contentinfo">
+    <p>Desenvolvido por Elizabete de Sousa Fabri 2024</p>
+  </footer>
 
-<script src="index.js" type="module"></script>
+  <script src="index.js" type="module"></script>
 </body>
 </html>
